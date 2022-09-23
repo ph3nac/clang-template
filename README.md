@@ -1,6 +1,6 @@
 # This is a template for clang development using brew llvm/clang, Cmake ,vscode
 
-# usage
+## usage
 Call `Cmake: Edit User Local Cmake Kit` to open cmake-tools-kit.json
 
 and add below in cmake-tools-kits.json
