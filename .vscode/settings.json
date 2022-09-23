@@ -1,5 +1,8 @@
 {
   "C_Cpp.intelliSenseEngine": "Disabled",
   "clangd.path": "/usr/local/opt/llvm/bin/clangd",
-  "clangd.arguments": ["--clang-tidy", "--background-index", "--pretty"]
+  "clangd.arguments": ["--clang-tidy", "--background-index", "--pretty"],
+  "cmake.configureSettings": {
+    "CMAKE_MAKE_PROGRAM":"ninja"
+  }
 }
