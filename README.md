@@ -1,7 +1,15 @@
 # This is a template for clang development using brew llvm/clang, Cmake ,vscode
 
+## installation
+`brew install llvm ninja cmake`
+
+### requirement
+Ninja
+llvm
+
+
 ## usage
-Call `Cmake: Edit User Local Cmake Kit` to open cmake-tools-kit.json
+1. Call `Cmake: Edit User Local Cmake Kit` to open cmake-tools-kit.json
 
 and add below in cmake-tools-kits.json
 ```jsonc
@@ -15,3 +23,8 @@ and add below in cmake-tools-kits.json
   }
 }
 ```
+
+2. Call `Cmake: Configure`
+
+
+
