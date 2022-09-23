@@ -1,8 +1,13 @@
 {
   "C_Cpp.intelliSenseEngine": "Disabled",
   "clangd.path": "/usr/local/opt/llvm/bin/clangd",
-  "clangd.arguments": ["--clang-tidy", "--background-index", "--pretty"],
-  "cmake.configureSettings": {
-    "CMAKE_MAKE_PROGRAM":"ninja"
-  }
+  "clangd.arguments": ["--clang-tidy", "--background-index", "--pretty","--compile-commands-dir=${workspaceFolder}/build"],
+  "cmake.generator": "Ninja",
+  // "cmake.configureSettings": {
+  //   "CMAKE_MAKE_PROGRAM":"ninja"
+  // }
+  // configure時の引数
+  "cmake.configureArgs": [
+    "-DCMAKE_EXPORT_COMMANDS=1"
+  ]
 }

@@ -1,0 +1,5 @@
+clangd-tidy
+clangd-format
+gtestに対応する
+juceに対応する
+
