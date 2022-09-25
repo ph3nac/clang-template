@@ -8,7 +8,7 @@
       "type": "lldb",
       "request": "launch",
       "name": "Debug",
-      "program": "${workspaceFolder}/build/clangtemplate",
+      "program": "${workspaceFolder}/build/apps/app",
       "args": [],
       "cwd": "${workspaceFolder}",
       "console": "integratedTerminal"
